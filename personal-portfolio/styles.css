@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+}
+
+.navbar{
+    background-color: grey;
+    width: 20vw;
+    height: 100vh;
+    font-size: 4vh;
+}
+
+.logo{
+    font-style: italic;
+    font-weight: bolder;
+    padding: 1vh;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-photo{
+    width: 24vh;
+    height: 30vh;
+    margin: 2vh auto;
+    background-color: black;
+}
+
+.navbar ul li{
+    padding: 1.5vh;
+    margin-left: 1vh;
+    border-bottom: 1px solid black;
+    border-radius: 2%;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+.components{
+    min-width: 100%;
+    height: fit-content;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+#heading1{
+    font-size: 10vh;
+    padding: 20vh 5vh;
+    padding-bottom: 1vh;
+}
+
+#cta-section{
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+#heading2{
+    font-size: 4vh;
+    margin-left: 10vh;
+}
+
+#cta-btn{
+    padding: 0.5vh 1vh;
+    margin: 0 3vh;
+}
